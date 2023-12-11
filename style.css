@@ -67,6 +67,7 @@
       margin-right: 0;
     }
   }
+
   /*Contact info styles*/
   .contact-info__header,
 .contact-info__sub-header {
@@ -123,9 +124,9 @@
 }
 
 .contact-info__avatar {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  border-radius: 20%;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -193,10 +194,15 @@
     text-align: left;
     margin-bottom: 20px;
   }
+
+  .experiences__company-project-description {
+    text-align: left;
+
+  }
   
   .experiences__company-project {
-    margin-left: 15px;
     margin-bottom: 25px;
+    margin-top: 20px;
   }
   
   .experiences__company-project-role {
@@ -215,6 +221,7 @@
   .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    margin-bottom: 15px;
   }
   
   .additional-info {
