@@ -194,10 +194,15 @@
     text-align: left;
     margin-bottom: 20px;
   }
+
+  .experiences__company-project-description {
+    text-align: left;
+
+  }
   
   .experiences__company-project {
-    margin-left: 15px;
     margin-bottom: 25px;
+    margin-top: 20px;
   }
   
   .experiences__company-project-role {
@@ -216,6 +221,7 @@
   .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    margin-bottom: 15px;
   }
   
   .additional-info {
